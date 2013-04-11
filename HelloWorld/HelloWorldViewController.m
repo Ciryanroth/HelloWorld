@@ -33,7 +33,7 @@
     self.username = self.textField.text;
     NSString *nameString = self.username;
     if ([nameString length] == 0) {
-        nameString = @"World";
+        nameString = @"World Ben wuz here";
     }
     
     NSString *greeting = [[NSString alloc] initWithFormat:@"Hello, %@",nameString]; 
